@@ -33,7 +33,7 @@ export default async function PokemonPage({ params } : { params: { pokemonName: 
         <p>Genus: {EvolutionObject.genera[7].genus}</p>
         { EvolutionObject.evolves_from_species ? <p className="capitalize">Evolves from: {EvolutionObject.evolves_from_species.name}</p> : null }
         <p>Description: {EvolutionObject.flavor_text_entries[7].flavor_text}</p>
-        <audio autoPlay controls className="hidden" volume="0.2">
+        <audio autoPlay controls className="hidden">
             <source
             id="audio-player"
             name="audio-player"
