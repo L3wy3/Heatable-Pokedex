@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={"bg-primary text-secondary"}>
-        <main>
+        <main className="min-h-screen">
           <div>
             <Link href="/" className="contents"><h1 className="text-5xl text-center w-fit m-auto pt-10 pb-10 hover:underline" >Pokedex</h1></Link>
           </div>

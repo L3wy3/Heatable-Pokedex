@@ -50,8 +50,11 @@ body {
   background: url(/spritesheet.png) 0 0;
 }
 .next {
-  background-color: red;
   height: 50px;
   width: 50px;
   display: block;
+  transition: transform 1s;
+}
+.next:hover {
+  transform: scale(1.2);
 }
