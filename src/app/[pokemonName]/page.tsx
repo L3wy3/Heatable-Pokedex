@@ -25,7 +25,7 @@ export default async function PokemonPage({ params } : { params: { pokemonName: 
             <div className="relative inline-flex items-center flex-wrap">
                 <div className="inline-flex items-center">
                     <a className="next" href={"/"+prevPokemon}><ChevronLeftIcon className="w-full h-full"/></a>
-                        <Image loading="lazy" className="m-10 border-double border-3 border-secondary rounded-3xl bg-tertiary relative" width="400" height="400" src={pokemonObject.sprites.other['official-artwork'].front_default} alt={"Picture of "+{pokemonName}}></Image>
+                        <Image loading="lazy" className="max-w-[70vw] border-double border-3 border-secondary rounded-3xl bg-tertiary relative" width="400" height="400" src={pokemonObject.sprites.other['official-artwork'].front_default} alt={"Picture of "+{pokemonName}}></Image>
                     <a className="next" href={"/"+nextPokemon}><ChevronRightIcon className="w-full h-full"/></a>
                 </div>
                 <div className="max-w-xs p-10">
