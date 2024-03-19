@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className, "bg-primary text-secondary"}>
+      <body className={"bg-primary text-secondary"}>
         <main>
           <div>
             <Link href="/" className="contents"><h1 className="text-5xl text-center w-fit m-auto pt-10 pb-10 hover:underline" >Pokedex</h1></Link>
