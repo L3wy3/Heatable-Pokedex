@@ -36,7 +36,6 @@ export default async function PokemonPage({ params } : { params: { pokemonName: 
         <audio autoPlay controls className="hidden">
             <source
             id="audio-player"
-            name="audio-player"
             src={pokemonObject.cries.legacy}
             type="audio/mp3"
             />
